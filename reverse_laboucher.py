@@ -1,9 +1,9 @@
 import numpy as np
 
 start = 6000
-absolute_stop_loss = 3000
-daily_stop_loss = 2000
-playing_days = 200
+absolute_stop_loss = 1000
+daily_stop_loss = 200
+playing_days = 2000
 
 budget = start
 
