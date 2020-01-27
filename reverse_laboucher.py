@@ -1,16 +1,19 @@
 import numpy as np
 
 start = 6000
+absolute_stop_loss = 3000
+daily_stop_loss = 2000
+playing_days = 200
 
 budget = start
 
-for __ in range(20):
+for __ in range(playing_days):
 
     current = budget
 
     cont = True
 
-    if budget < start - 1000:
+    if budget < start - absolute_stop_loss:
         break
 
     for _ in range(11):
@@ -26,7 +29,7 @@ for __ in range(20):
             else:
                 bet = labby_line[0]
 
-            if budget < current - 2000:# and len(labby_line) > 4:
+            if budget < current - daily_stop_loss:# and len(labby_line) > 4:
                 cont = False
                 break
 
