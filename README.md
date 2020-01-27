@@ -4,4 +4,6 @@ There is a famous roulette strategy called Martingale and many people think they
 
 The exact logic is described in [this blog](https://nononsenseforex.com/uncategorized/reverse-labouchere/).
 
+50% win probability is used, but the casino takes 10% of your profits. (no zero roulette)
+
 You can turn off the stop loss by setting it to an unreasonably high number.
